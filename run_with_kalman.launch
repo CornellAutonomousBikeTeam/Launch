@@ -8,13 +8,6 @@
     
     <node
         pkg="bike"
-        name="map"
-        type="map_node.py"
-        output="screen"
-    />
-    
-    <node
-        pkg="bike"
         name="nav"
         type="navigation_node.py"
     />

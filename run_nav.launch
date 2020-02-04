@@ -11,11 +11,6 @@
         name="nav"
         type="navigation_node.py"
     />
-    <node
-        pkg="bike"
-        name="map"
-        type="map_node.py"
-    />
 
     <node
         pkg = "teleop_twist_keyboard"

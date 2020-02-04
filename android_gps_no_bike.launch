@@ -1,0 +1,23 @@
+<launch>
+    <node
+        pkg="bike"
+        name="nav"
+        type="navigation_node.py"
+    />
+
+    <node 
+        pkg="bike" 
+        name="android_gps" 
+        type="android_gps_node.py" 
+    />
+    <node 
+        pkg="bike" 
+        name="plot_node" 
+        type="plot_node.py" 
+    />
+
+<!--
+    <node pkg="rosbag" type="record" name="recording" args = "-O /home/pi/ros_ws/src/bike/bagfiles/$(arg time) /bike_state /gps /nav_instr /paths" />
+-->
+</launch>
+
